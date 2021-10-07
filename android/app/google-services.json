@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "132721426931",
+    "project_id": "studportal2020",
+    "storage_bucket": "studportal2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132721426931:android:345aa4c2bbdf2a1373d286",
+        "android_client_info": {
+          "package_name": "com.example.stud_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132721426931-f7v913hvbjdcab3ab3m8n2utqd1g00nn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stud_portal",
+            "certificate_hash": "87ee3020de3f8ff81eaa8485e311d82cfd460210"
+          }
+        },
+        {
+          "client_id": "132721426931-udfu23kk2v7bj8e1e2bo5o98qut90gf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQQjOxzB-DNKaSuj5d-u0Iu0FWX5yGvjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132721426931-udfu23kk2v7bj8e1e2bo5o98qut90gf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
