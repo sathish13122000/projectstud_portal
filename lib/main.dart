@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
         // brightness: Brightness.dark,
       ),
       home: Login(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
