@@ -3,6 +3,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:stud_portal/components/nav_bar.dart';
 import 'package:stud_portal/model/user.dart';
 import 'package:stud_portal/screens/login.dart';
 // import 'package:image_picker/image_picker.dart';
@@ -32,6 +33,8 @@ class _HomeState extends State<Home> {
       setState(() {});
     });
   }
+
+  // create a widget for sending message with a send icon at the right end
 
   // DateTime now = DateTime.now().toLocal();
   // String time = DateFormat.yMMMd().format(now);
@@ -93,6 +96,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       );
+
   Widget _buildMessage() => ListTile(
         leading: Container(
           height: 32,
@@ -129,6 +133,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: NavBar(),
       appBar: AppBar(
           // leading: IconButton(
           //   icon: Icon(Icons.menu),
@@ -166,7 +171,7 @@ class _HomeState extends State<Home> {
                 _buildMessage(),
               ],
             )),
-            _buildInput(),
+            // _buildMessageComposer(),
           ],
         ),
       ),
@@ -215,14 +220,6 @@ class _HomeState extends State<Home> {
                             ),
                           ],
                         ),
-                        // child: TextField(
-                        //   decoration: InputDecoration(
-                        //       prefixIcon: Icon(Icons.search),
-                        //       hintText: "Jump to ...",
-                        //       //filled: true,
-                        //       border: OutlineInputBorder(
-                        //           borderSide: BorderSide.none)),
-                        // ),
                       )
                     ],
                   )),
